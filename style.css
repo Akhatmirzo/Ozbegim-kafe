@@ -1,0 +1,574 @@
+body{
+      margin: 0;
+      padding: 0;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: black;
+}
+
+.navbar{
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: black;
+      width: 100%;
+      height: 70px;
+      z-index: 1;
+}
+
+.tex{
+      position: absolute;
+      top:300px;
+      left: 500px;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+.nav{
+      display: flex;
+      justify-content: right;
+      list-style: none;
+      margin-right: 5%;
+}
+
+.nava{
+      display: flex;
+      justify-content: left;
+      list-style: none;
+}
+
+.navar{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background-color: #333;
+      width: 100%;
+      height: 70px;
+      z-index: 1;
+}
+
+.logo{
+      border: 1px solid white;
+      margin-right: 15%;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: bold;
+      font-size: 35px;
+      border: 1px solid black;
+}
+
+a{
+      margin: 15px;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+
+a{
+      color: white;
+}
+
+a:hover{
+      color: red;
+}
+
+.banner{
+      position: relative;
+      background-image: url(https://cdn.pixabay.com/photo/2020/03/21/11/17/burger-4953465__340.jpg);
+      filter: brightness(0.5);
+      width: 100%;
+      height: 100vh;
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      margin-bottom: 50px;
+}
+
+.abut, .port{
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      height: 1400px;
+}
+
+.content{
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      height: 750px;
+}
+
+.service{
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      height: 350px;
+}
+
+.kart{
+      text-align: center;
+}
+
+.text-part{
+      width: 100%;
+      height: 100%;
+}
+
+h1{
+      font-size: 50px;
+}
+
+p{
+      font-size: 24px;
+      line-height: 50px;
+}
+
+.abut, .port{
+      background: white;
+}
+
+.content{
+      background: white;
+}
+
+.abut{
+      background-color: #333;
+}
+
+.service{
+      background-image: linear-gradient(black, green);
+}
+
+.wrapper2{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 110px;
+      margin-bottom: 100px;
+}
+
+.boxe1, .boxe2, .boxe3, .boxe4, .boxe5, .boxe6, .boxe7, .boxe8{
+      border: 1px solid white;
+      width: 300px;
+      height: 595px;
+      transition: 1s;
+      background-color: black;
+}
+
+/*boxe1*/
+
+.boxe1{
+      padding: 5px;
+      margin: 10px;
+      margin-bottom: 30px;
+}
+
+.boxe1 .img1{
+      background-image: url(https://cdn.pixabay.com/photo/2017/12/09/23/04/bread-3008950__340.jpg);
+      width: 300px;
+      height: 280px;
+      background-size: cover;
+}
+
+.boxe1{
+      background-color: black;
+}
+
+.hrt{
+      font-size: 25px;
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+}
+
+.trh{
+      color: white;
+      text-align: center;
+      margin-top: 25px;
+
+}
+
+.hrefer{
+      background-color: green;
+      color: white;
+      font-size: 30px;
+      margin-left: 63px;
+      padding: 10px;
+      border-radius: 25%;
+}
+
+/*boxe2*/
+
+.boxe2{
+      padding: 5px;
+      margin: 10px;
+      margin-bottom: 10px;
+}
+
+.boxe2 .img2{
+      background-image: url(https://cdn.pixabay.com/photo/2017/01/22/19/20/pizza-2000615__340.jpg);
+      background-position: center;
+      width: 300px;
+      height: 280px;
+      background-size: cover;
+}
+
+/*boxe3*/
+
+.boxe3{
+      padding: 5px;
+      margin: 10px;
+      margin-bottom: 10px;
+}
+
+.boxe3 .img3{
+      background-image: url(https://cdn.pixabay.com/photo/2016/05/25/10/43/hamburger-1414423__340.jpg);
+      background-position: center top;
+      width: 300px;
+      height: 280px;
+      background-size: cover;
+}
+
+/*boxe4*/
+
+.boxe4{
+      padding: 5px;
+      margin: 10px;
+      margin-bottom: 10px;
+}
+
+.boxe4 .img4{
+      background-image: url(https://cdn.pixabay.com/photo/2021/01/06/10/11/shawarma-5893935__340.jpg);
+      background-position: 1px;
+      width: 300px;
+      height: 280px;
+      background-size: cover;
+}
+
+/*boxe5*/
+
+.boxe5{
+      padding: 5px;
+      margin: 10px;
+      margin-bottom: 10px;
+}
+
+.boxe5 .img5{
+      background-image: url(https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054__340.jpg);
+      background-position: 1px;
+      width: 300px;
+      height: 280px;
+      background-size: cover;
+}
+
+/*boxe6*/
+
+.boxe6{
+      padding: 5px;
+      margin: 10px;
+      margin-bottom: 10px;
+}
+
+.boxe6 .img6{
+      background-image: url(https://cdn.pixabay.com/photo/2022/01/28/12/17/fast-food-6974507__340.jpg);
+      background-position: 1px;
+      width: 300px;
+      height: 280px;
+      background-size: cover;
+}
+
+/*boxe7*/
+
+.boxe7{
+      padding: 5px;
+      margin: 10px;
+      margin-bottom: 10px;
+}
+
+.boxe7 .img7{
+      background-image: url(https://cdn.pixabay.com/photo/2016/03/05/20/07/abstract-1238657__340.jpg);
+      background-position: center;
+      width: 300px;
+      height: 280px;
+      background-size: cover;
+}
+
+/*boxe8*/
+
+.boxe8{
+      padding: 5px;
+      margin: 10px;
+      margin-bottom: 10px;
+}
+
+.boxe8 .img8{
+      background-image: url(https://cdn.pixabay.com/photo/2017/09/18/15/14/french-fries-2762014__340.jpg);
+      background-position: 1px;
+      width: 300px;
+      height: 280px;
+      background-size: cover;
+}
+.boxe1:hover, .boxe2:hover, .boxe3:hover, .boxe4:hover, .boxe5:hover, .boxe6:hover, .boxe7:hover, .boxe8:hover{
+      transform: scale(1.1, 1.1);
+      transition:all 0.8s;
+}
+
+.navrt ul li a{
+      font-size: 30px;
+      margin-right: 100px;
+}
+
+.navrt a{
+      text-decoration: none;
+      text-transform: uppercase;
+      list-style: none;
+}
+
+.navrt{
+      list-style: none;
+}
+
+.logo1 button{
+      flex: 1 1 auto;
+      margin-left: 5%;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: bold;
+      font-size: 30px;
+      color: white;
+      background-color: green;
+      padding: 20px;
+}
+
+.logo1 button:hover{
+      background-color: black;
+      color: red;
+}
+
+html{
+      scroll-behavior: smooth;
+}
+
+/*resposive*/
+
+/*@media only screen and (max-width:390px){
+
+      .abut{
+            background-color: #333;
+            width: 100%;
+      }
+
+      .navbar{
+            position: fixed;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            background-color: black;
+            width: 100%;
+            height: 70px;
+            z-index: -1;
+      }
+
+      .navar{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: #333;
+            width: 100%;
+            height: 70px;
+            z-index: 1;
+      }
+}*/
+
+/*biz haqimizda*/
+
+.image1{
+      background-image: url(https://cdn.pixabay.com/photo/2019/02/10/02/10/a-sandwich-3986330__340.jpg);
+      background-size: cover;
+      width: 1200px;
+      height: 500px;
+      -webkit-background-size: cover;
+      margin-left: 200px;
+}
+
+.boglan{
+      position: absolute;
+      border: 1px solid green;
+      background: green;
+      padding: 10px;
+      right: 580px;
+      top: 1000px;
+      font-weight: bold;
+      letter-spacing: 5px;
+      font-size: 30px;
+}
+
+.text-area1{
+      color: white;
+      width: 1200px;
+      height: auto;
+      text-align: justify;
+      margin-left: 200px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+
+/* tugma*//*buyurtma*/
+
+:root {
+      --clr-neon: #ff14bd;
+      --clr-bg: hsl(323 21% 16%);
+    }
+    .neon-button {
+      font-size: 4rem;
+      top: 0;
+      
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none;
+      color: var(--clr-neon);
+      border: var(--clr-neon) 0.125em solid;
+      padding: 0.25em 1em;
+      border-radius: 0.25em;
+      background-color: white;
+    
+      text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    
+      box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+    
+      position: relative;
+    }
+    
+    .neon-button::before {
+      pointer-events: none;
+      content: "";
+      position: absolute;
+      background: var(--clr-neon);
+      top: 120%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    
+      transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+      filter: blur(1em);
+      opacity: 0.7;
+    }
+    
+    .neon-button::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      box-shadow: 0 0 2em 0.5em var(--clr-neon);
+      opacity: 0;
+      background-color: var(--clr-neon);
+      z-index: -1;
+      transition: opacity 100ms linear;
+    }
+    
+    .neon-button:hover,
+    .neon-button:focus {
+      color: var(--clr-bg);
+      text-shadow: none;
+    }
+    
+    .neon-button:hover::before,
+    .neon-button:focus::before {
+      opacity: 1;
+    }
+    .neon-button:hover::after,
+    .neon-button:focus::after {
+      opacity: 1;
+    }
+
+    /*tugma 2*/
+
+    :root {
+      --clr-neon: #ff14bd;
+      --clr-bg: hsl(323 21% 16%);
+    }
+    .neon-button1 {
+      font-size: 3rem;
+      top: 3.5em;
+      left: 400px;
+      
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none;
+      color: var(--clr-neon);
+      border: var(--clr-neon) 0.125em solid;
+      padding: 0.25em 1em;
+      border-radius: 0.25em;
+      background-color: white;
+    
+      text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    
+      box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+    
+      position: relative;
+    }
+    
+    .neon-button1::before {
+      pointer-events: none;
+      content: "";
+      position: absolute;
+      background: var(--clr-neon);
+      top: 120%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    
+      transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+      filter: blur(1em);
+      opacity: 0.7;
+    }
+    
+    .neon-button1::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      box-shadow: 0 0 2em 0.5em var(--clr-neon);
+      opacity: 0;
+      background-color: var(--clr-neon);
+      z-index: -1;
+      transition: opacity 100ms linear;
+    }
+    
+    .neon-button1:hover,
+    .neon-button1:focus {
+      color: var(--clr-bg);
+      text-shadow: none;
+    }
+    
+    .neon-button1:hover::before,
+    .neon-button1:focus::before {
+      opacity: 1;
+    }
+    .neon-button1:hover::after,
+    .neon-button1:focus::after {
+      opacity: 1;
+    }
+
